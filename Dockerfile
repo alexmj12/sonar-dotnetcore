@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore-build:2.0-jessie
+FROM FROM microsoft/dotnet:2.2-sdk
 
 # set up environment
 ENV SONAR_SCANNER_VERSION=3.2.0.1227 \
